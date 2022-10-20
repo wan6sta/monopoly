@@ -7,6 +7,7 @@
 }
 
 .create {
+  display: block;
   position: absolute;
   border-radius: 10px;
   text-align: center;
@@ -14,6 +15,11 @@
   bottom: 7rem;
   right: 50%;
   transform: translateX(50%);
+  transition: 0.2s ease-in;
+}
+
+.create:hover {
+  background-color: rgba(255, 255, 255, 0.1);
 }
 
 .JoinIntoGame {
@@ -46,4 +52,24 @@
   position: absolute;
   bottom: -20px;
   right: 0;
+}
+
+@media screen and (max-height: 500px) {
+  .create {
+    display: none !important;
+  }
+}
+
+@media screen and (min-width: 555px) {
+  .whoYou {
+    width: 400px;
+  }
+
+  .cifryWrap {
+    width: 400px;
+  }
+
+  .cifry {
+    width: 400px;
+  }
 }

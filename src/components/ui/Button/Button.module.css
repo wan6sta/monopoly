@@ -1,9 +1,19 @@
 .Button {
   padding: 10px;
   border-radius: 10px;
+  user-select: none;
   width: 200px;
+  transition: 0.2s ease-in;
+}
+
+.Button:hover {
+  background-color: rgba(255, 255, 255, 0.1);
 }
 
 .error {
+  background-color: rgba(255, 40, 90, 0.8);
+}
+
+.error:hover {
   background-color: rgba(255, 40, 90, 0.8);
 }

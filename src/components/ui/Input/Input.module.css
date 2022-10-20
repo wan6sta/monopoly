@@ -16,3 +16,9 @@
   background-color: rgba(0, 0, 0, 0.3);
   box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.1);
 }
+
+@media screen and (max-width: 410px) {
+  .Input {
+    width: 150px;
+  }
+}
