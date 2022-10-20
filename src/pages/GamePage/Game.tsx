@@ -6,7 +6,7 @@ interface GameProps {}
 
 const socket = io('http://localhost:80')
 
-export const Game: FC<GameProps> = () => {
+export const GamePage: FC<GameProps> = () => {
 	const [value, setValue] = useState('')
 
 	const sendMessage = () => {

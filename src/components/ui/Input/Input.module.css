@@ -1,23 +1,29 @@
 .Input {
   height: 35px;
   width: 250px;
-  background-color: rgba(0, 0, 0, 0.35);
+  background-color: rgba(255, 255, 255, 0.15);
   padding: 5px 10px;
   border-radius: 10px;
   font-size: 20px;
   text-align: center;
-  box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+  box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.1);
   letter-spacing: 0.05em;
   color: white;
   transition: 0.2s ease-in;
 }
 
 .Input:focus {
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(255, 255, 255, 0.15);
   box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.1);
 }
 
-@media screen and (max-width: 410px) {
+@media screen and (max-width: 398px) {
+  .Input {
+    width: 190px;
+  }
+}
+
+@media screen and (max-width: 340px) {
   .Input {
     width: 150px;
   }
