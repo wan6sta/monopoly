@@ -1,0 +1,49 @@
+.whoYou {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.create {
+  position: absolute;
+  border-radius: 10px;
+  text-align: center;
+  padding: 10px;
+  bottom: 7rem;
+  right: 50%;
+  transform: translateX(50%);
+}
+
+.JoinIntoGame {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  row-gap: 20px;
+  width: 100%;
+  flex-direction: column;
+}
+
+.cifryWrap {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.cifry {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  justify-content: space-between;
+}
+
+.error {
+  font-size: 10px;
+  position: absolute;
+  bottom: -20px;
+  right: 0;
+}
